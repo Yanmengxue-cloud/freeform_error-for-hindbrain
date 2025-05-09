@@ -1,0 +1,53 @@
+**************  BRAINREG LOG  **************
+
+Ran at : 2025-05-09_19-52-58
+Output directory: D:\Zhoulab\brainrender\example\try_brainreg\sample_hindbrain
+Current directory: C:\Users\25041
+Version: 0.0.0
+
+**************  GIT INFO  **************
+
+Gitpython is not installed. Cannot check if software is in a git repository
+
+**************  COMMAND LINE ARGUMENTS  **************
+
+Command: D:\SoftwareInstall\anaconda3\envs\brainglobe-test\Scripts\napari 
+Input arguments: []
+
+**************  VARIABLES  **************
+image_paths: D:\Zhoulab\brainrender\data\sample_hindbrain.tif
+backend: niftyreg
+voxel_sizes: ['50.0', '40.0', '40.0']
+orientation: psl
+data_orientation: psl
+brain_geometry: geometry_keys.Full brain
+save_original_orientation: False
+atlas: example_mouse_100um
+atlas_key: atlas_key.example_mouse_100um
+registration_output_folder: D:\Zhoulab\brainrender\example\try_brainreg\sample_hindbrain
+affine_n_steps: 6
+affine_use_n_steps: 5
+freeform_n_steps: 6
+freeform_use_n_steps: 4
+bending_energy_weight: 0.95
+grid_spacing: 5
+smoothing_sigma_reference: 1.0
+smoothing_sigma_floating: 1.0
+histogram_n_bins_floating: 128.0
+histogram_n_bins_reference: 128.0
+n_free_cpus: 2
+debug: False
+
+
+**************  LOGGING  **************
+
+2025-05-09 19:52:58 PM - INFO - MainProcess fancylog.py:326 - Starting logging
+2025-05-09 19:52:58 PM - INFO - MainProcess fancylog.py:327 - Not logging multiple processes
+2025-05-09 19:52:59 PM - DEBUG - MainProcess system.py:231 - Determining the maximum number of CPU cores to use
+2025-05-09 19:52:59 PM - DEBUG - MainProcess system.py:236 - Number of CPU cores available is: 30
+2025-05-09 19:52:59 PM - DEBUG - MainProcess system.py:263 - Setting number of processes to: 30
+2025-05-09 19:52:59 PM - INFO - MainProcess util.py:34 - Loading raw image data
+2025-05-09 19:52:59 PM - INFO - MainProcess register.py:460 - Registering sample_hindbrain
+2025-05-09 19:52:59 PM - INFO - MainProcess run.py:86 - Registering
+2025-05-09 19:52:59 PM - INFO - MainProcess run.py:104 - Starting affine registration
+2025-05-09 19:53:01 PM - INFO - MainProcess run.py:107 - Starting freeform registration
